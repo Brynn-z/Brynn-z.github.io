@@ -2,54 +2,66 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
-    text-align: center;
+.full-header {
+    max-width: 700px;
+    margin: 0px auto 0px;
+    font-size: 14px;
 }
 
 .name {
-    font-size: 4em;
-    margin: 20px;
+    text-align: center;
 }
 
-.personal-info i{
-    padding: 0 15px 0 15px;
-    font-size: 14px;
-    color: grey;
+.personal-info {
+    text-align: center;
 }
 
-.divider {
-    font-weight: bolder;
-    color: grey;
-    font-size: 0.5em;
+.line {
+    border: 2px solid black;
 }
 
-.section {
-    margin: 20px;
-    width: 60%;
-    margin: 10px 0 0 50px;
-    margin-left: 0;
-    float: right;
+table {
+    border-spacing: 30px;
+   
 }
 
-.resume-sections ul {
-     margin: auto;
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+th {
+    vertical-align: top;
 }
 
-.section {
-    display: inline;
-    width: 100%;
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
 }
 
 .title {
-    width: 20%;
-    float: left;
-    margin: 10px 0 0 50px;
+    text-align: left;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
 }
 
-.info-text {
-    width: 60%;
-    margin-left: 0;
-    float: right;
-    font-size: 18px;
-    margin-bottom: 20px;
+.main-idea {
+    font-weight: bold;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li {
+    display: list-item;
 }
